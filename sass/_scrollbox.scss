@@ -33,44 +33,28 @@
 
 .header__box_one{
   @include box();
-<<<<<<< HEAD
   background-image: url(/images/imgfour.png);
-=======
-  background-image: url(./images/img1.png);
->>>>>>> e3f60bd1ce0e5a890e752212bca6e8ab7cb66cc2
   @include img-property;
   
 }
 
 .header__box_two{
     @include box();
-<<<<<<< HEAD
     background-image: url(/images/imgone.png);
-=======
-    background-image: url(./images/img2.png);
->>>>>>> e3f60bd1ce0e5a890e752212bca6e8ab7cb66cc2
     @include img-property;
     box-shadow: $shadow;
 }
 
 .header__box_three{
     @include box();
-<<<<<<< HEAD
     background-image: url(/images/imgtwo.png);
-=======
-    background-image: url(./images/img3.png);
->>>>>>> e3f60bd1ce0e5a890e752212bca6e8ab7cb66cc2
     @include img-property;
     box-shadow: $shadow;
 }
 
 .header__box_four{
     @include box();
-<<<<<<< HEAD
     background-image: url(/images/imgthree.png);
-=======
-    background-image: url(./images/img4.png);
->>>>>>> e3f60bd1ce0e5a890e752212bca6e8ab7cb66cc2
     @include img-property;
     box-shadow: $shadow;
     
