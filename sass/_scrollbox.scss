@@ -33,28 +33,28 @@
 
 .header__box_one{
   @include box();
-  background-image: url(/images/img1.png);
+  background-image: url(/images/imgfour.png);
   @include img-property;
   
 }
 
 .header__box_two{
     @include box();
-    background-image: url(/images/img2.png);
+    background-image: url(/images/imgone.png);
     @include img-property;
     box-shadow: $shadow;
 }
 
 .header__box_three{
     @include box();
-    background-image: url(/images/img3.png);
+    background-image: url(/images/imgtwo.png);
     @include img-property;
     box-shadow: $shadow;
 }
 
 .header__box_four{
     @include box();
-    background-image: url(/images/img4.png);
+    background-image: url(/images/imgthree.png);
     @include img-property;
     box-shadow: $shadow;
     
