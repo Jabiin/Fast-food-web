@@ -1,0 +1,78 @@
+
+@mixin box{
+   height: 24rem;
+   width: 32.3rem;
+   background-color: $box-color;
+   cursor: pointer;
+}
+
+
+@mixin img-property{
+    background-repeat: no-repeat;
+    background-size: 30rem;
+    
+}
+
+@mixin hover{
+    background-color: brown;
+    transform: translatey(-2rem);
+    box-shadow: $shadow;
+    transition: all 0.5s;
+    border-top-left-radius: 3rem;
+    border-top-right-radius: 3rem;
+}
+
+
+
+.header__box{
+    grid-area: box;
+    justify-self: center;
+    display: flex;
+    flex-direction: row;
+}
+
+.header__box_one{
+  @include box();
+  background-image: url(/images/img1.png);
+  @include img-property;
+  
+}
+
+.header__box_two{
+    @include box();
+    background-image: url(/images/img2.png);
+    @include img-property;
+    box-shadow: $shadow;
+}
+
+.header__box_three{
+    @include box();
+    background-image: url(/images/img3.png);
+    @include img-property;
+    box-shadow: $shadow;
+}
+
+.header__box_four{
+    @include box();
+    background-image: url(/images/img4.png);
+    @include img-property;
+    box-shadow: $shadow;
+    
+}
+
+.header__box_one:hover{
+    @include hover();
+}
+
+.header__box_two:hover{
+    @include hover();
+}
+
+.header__box_three:hover{
+    @include hover();
+}
+
+.header__box_four:hover{
+    @include hover();
+}
+

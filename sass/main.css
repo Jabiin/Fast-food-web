@@ -1,0 +1,147 @@
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;700&display=swap");
+*, ::after,
+::before {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-size: 65.2%;
+  font-family: "Josefin Sans", sans-serif;
+}
+
+body {
+  background-image: radial-gradient(59.03% 59.03% at 50% 42.33%, #F7C29F 0%, #F86F15 100%);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.header__container {
+  display: grid;
+  grid-template-columns: repeat(4, 31.6rem);
+  grid-template-rows: repeat(3, -webkit-min-content);
+  grid-template-rows: repeat(3, min-content);
+  grid-template-areas: "nav nav nav nav" "img img img img" "box box box box";
+  gap: 1rem;
+  overflow: hidden;
+}
+
+.header__nav {
+  grid-area: nav;
+}
+.header__nav li {
+  display: inline-block;
+  padding-left: 3rem;
+  padding-top: 2rem;
+  font-size: 2.1rem;
+  font-weight: 700;
+  color: #Fff;
+}
+
+.header_img {
+  grid-area: img;
+  justify-self: end;
+}
+.header_img .header__body_img {
+  height: 70rem;
+}
+
+.header__body_text {
+  grid-area: img;
+  align-self: center;
+  color: aliceblue;
+}
+
+h1 {
+  font-size: 25rem;
+}
+
+p {
+  font-size: 2rem;
+  text-align: start;
+  padding-left: 2rem;
+}
+
+.header__box {
+  grid-area: box;
+  justify-self: center;
+  display: flex;
+  flex-direction: row;
+}
+
+.header__box_one {
+  height: 24rem;
+  width: 32.3rem;
+  background-color: #Fff;
+  cursor: pointer;
+  background-image: url(/images/img1.png);
+  background-repeat: no-repeat;
+  background-size: 30rem;
+}
+
+.header__box_two {
+  height: 24rem;
+  width: 32.3rem;
+  background-color: #Fff;
+  cursor: pointer;
+  background-image: url(/images/img2.png);
+  background-repeat: no-repeat;
+  background-size: 30rem;
+  box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.25);
+}
+
+.header__box_three {
+  height: 24rem;
+  width: 32.3rem;
+  background-color: #Fff;
+  cursor: pointer;
+  background-image: url(/images/img3.png);
+  background-repeat: no-repeat;
+  background-size: 30rem;
+  box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.25);
+}
+
+.header__box_four {
+  height: 24rem;
+  width: 32.3rem;
+  background-color: #Fff;
+  cursor: pointer;
+  background-image: url(/images/img4.png);
+  background-repeat: no-repeat;
+  background-size: 30rem;
+  box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.25);
+}
+
+.header__box_one:hover {
+  background-color: brown;
+  transform: translatey(-2rem);
+  box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.25);
+  transition: all 0.5s;
+  border-top-left-radius: 3rem;
+  border-top-right-radius: 3rem;
+}
+
+.header__box_two:hover {
+  background-color: brown;
+  transform: translatey(-2rem);
+  box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.25);
+  transition: all 0.5s;
+  border-top-left-radius: 3rem;
+  border-top-right-radius: 3rem;
+}
+
+.header__box_three:hover {
+  background-color: brown;
+  transform: translatey(-2rem);
+  box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.25);
+  transition: all 0.5s;
+  border-top-left-radius: 3rem;
+  border-top-right-radius: 3rem;
+}
+
+.header__box_four:hover {
+  background-color: brown;
+  transform: translatey(-2rem);
+  box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.25);
+  transition: all 0.5s;
+  border-top-left-radius: 3rem;
+  border-top-right-radius: 3rem;
+}/*# sourceMappingURL=main.css.map */
