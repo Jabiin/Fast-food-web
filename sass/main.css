@@ -8,6 +8,12 @@
   font-family: "Josefin Sans", sans-serif;
 }
 
+@media only screen and (max-width: 600px) {
+  html {
+    font-size: 20%;
+  }
+}
+
 body {
   background-image: radial-gradient(59.03% 59.03% at 50% 42.33%, #F7C29F 0%, #F86F15 100%);
   background-size: cover;
